@@ -18,7 +18,7 @@ app.use(middleware.logger);
 
 
 
-app.get('/about-us', function (req, res) {
+app.get('/about-us All', function (req, res) {
     res.send('About Us');
 });
 app.get('/contact-us', function (req, res) {
