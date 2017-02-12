@@ -18,11 +18,14 @@ app.use(middleware.logger);
 
 
 
-app.get('/about-us All', function (req, res) {
+app.get('/about-us ', function (req, res) {
     res.send('About Us');
 });
 app.get('/contact-us', function (req, res) {
     res.send('Contact Us');
+});
+app.get('/news-feed', function (req, res) {
+    res.send('News Feed');
 });
 
 app.listen(app.get('port'), function () {
