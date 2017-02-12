@@ -11,7 +11,7 @@ app.use(middleware.logger);
 
 
 app.get('/about-us ', middleware.handleRequest, function (req, res) {
-    res.send('About Us');
+    res.send('About Us all');
 });
 
 app.listen(app.get('port'), function () {
